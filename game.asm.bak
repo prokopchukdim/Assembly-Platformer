@@ -3,7 +3,7 @@
 # CSCB58 Winter 2023 Assembly Final Project
 # University of Toronto, Scarborough
 #
-# Student: Dmitriy Prokopchuk
+# Student: Dmitriy Prokopchuk, 1007650622, prokopc5, dmitriy.prokopchuk@mail.utoronto.ca
 #
 # Bitmap Display Configuration:
 # - Unit width in pixels: 2 (update this as needed)
@@ -44,6 +44,29 @@
 # - Game is won on collecting 30 treats. Lost on falling out of the level.
 # - Picking up a chocolate launches you up far into the air (due to poodle allergies).
 #####################################################################
+
+# Bitmap display starter code
+#
+# Bitmap Display Configuration:
+# - Unit width in pixels: 2
+# - Unit height in pixels: 2
+# - Display width in pixels: 128
+# - Display height in pixels: 256
+# - Base Address for Display: 0x10008000 ($gp)
+#
+
+##########  TODO ############
+# LOW PRIORITY:
+# fix framerate (sleep based on time delta between frames)
+
+# DONE MILESTONE 3:
+# lose condition +1 (+ lose screen)
+# win condition +1 (+ win screen)
+# score +2
+# double jump +1
+# Menu screen +1
+# moving platforms +2
+# Animations +2
 
 .data
 spacer: .space 33000
